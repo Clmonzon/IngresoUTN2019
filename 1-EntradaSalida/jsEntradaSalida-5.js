@@ -6,7 +6,8 @@ var nombre;
 var edad;
 
 nombre = document.getElementById("elNombre").value;
-edad = document.getElementById("laEdad").Value;
-alert("Usted se llama " + nombre + "y tiene" edad");
+edad = document.getElementById("laEdad").value;
+alert("Usted se llama " + nombre + " y tiene " + edad)
+
 }
 

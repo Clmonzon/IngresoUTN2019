@@ -5,7 +5,7 @@
 function Mostrar()
 {
 	var nombre;
-	nombre = prompt("su nombre es");
+	nombre = prompt("El nombre es");
 	document.getElementById("elNombre").value = nombre;
 
 
