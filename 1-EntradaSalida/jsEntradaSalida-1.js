@@ -1,6 +1,6 @@
-//Debemos lograr mostrar un mensaje al presionar el botón  'MOSTRAR'.
-function Mostrar()
+//Debemos lograr mostrar un mensaje al presionar el botón  'mostrar'.
+function mostrar()
 {
-	alert ("Esto funciona de maravilla")
+	alert("Esto funciona de maravilla");
 }
 

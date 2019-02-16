@@ -1,5 +1,6 @@
-function Mostrar()
+function mostrar()
 {
+	//Genero el número RANDOM entre 1 y 10 
 var numeroAleatorio = Math.floor((Math.random() * 10) + 1);
 
 
@@ -23,5 +24,26 @@ else
 		}
 }
 
-//Genero el número RANDOM entre 1 y 10 
+
+
+/* CODIGO EJEMPLO DE COMO USAR SWITCH
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}*/
+    // code block
+
+
+
+
+
+
+	
+
 }//FIN DE LA FUNCIÓN
