@@ -2,13 +2,10 @@
 transformarlo a entero (parseInt), luego
 mostrar el importe con un aumento del 10 %
 en el cuadro de texto "RESULTADO".*/
-function mostrarAumento()
+function MostrarAumento()
 {
-	var sueldo;
-	var sueldoConAumento;
-	
-	sueldo	= document.getElementById("sueldo").value;
-	sueldoConAumento = parseInt(sueldo) *1.1;
-	
-	document.getElementById("resultado").value = sueldoConAumento;	
+    var sueldo = parseInt(document.getElementById("sueldo").value);
+    var aumento = sueldo * 0.1;
+    sueldo += aumento;
+    document.getElementById("resultado").value = sueldo;
 }
