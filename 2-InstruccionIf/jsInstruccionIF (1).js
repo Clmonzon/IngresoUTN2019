@@ -1,18 +1,6 @@
-function mostrar()
+function Mostrar()
 {
 //tomo la edad  
-function mostrar()
-{
-
-var laEdad;
-laEdad	= document.getElementById("edad").value;
-
-if (laEdad=="15")
-	{
-		alert("Niña bonita");
-	}
-
-
 
 
 
