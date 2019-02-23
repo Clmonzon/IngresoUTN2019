@@ -1,3 +1,4 @@
+/*Al ingresar una edad que sea igual a 15, mostrar el mensaje "niña bonita".*/
 function Mostrar()
 {
     var edad = document.getElementById("edad").value;

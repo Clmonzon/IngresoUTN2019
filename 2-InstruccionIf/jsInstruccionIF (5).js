@@ -1,3 +1,4 @@
+/*Al ingresar una edad solo debemos informar si la persona NO es adolescente.*/
 function Mostrar()
 {
     var edad = parseInt(document.getElementById("edad").value);
@@ -8,4 +9,3 @@ function Mostrar()
 
 
 }//FIN DE LA FUNCIÓN
-

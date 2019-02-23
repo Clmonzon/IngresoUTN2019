@@ -14,6 +14,7 @@ switch (mesDelAño){
     case "Julio":
     case "Agosto":
         alert("Abrigate que hace frìo");
+        break;
     case "Septiembre":
     case "Octubre":
     case "Noviembre":

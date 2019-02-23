@@ -15,7 +15,7 @@ var mesDelAño = document.getElementById('mes').value;
         case "Enero":
         case "Marzo":
         case "Mayo":
-        case "Juio":
+        case "Julio":
         case "Agosto":
         case "Octubre":
         case "Diciembre":
