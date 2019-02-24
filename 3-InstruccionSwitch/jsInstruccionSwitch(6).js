@@ -2,7 +2,6 @@ function Mostrar()
 {
 //tomo la hora
 var laHora = document.getElementById('hora').value;
-if(laHora >= "0" && laHora <= "24"){
     switch(laHora){
         case "7":
         case "8":
@@ -20,7 +19,7 @@ if(laHora >= "0" && laHora <= "24"){
         case "18":
         case "19":
             alert("es de tarde.");
-            break
+            break;
         case "20":
         case "21":
         case "22":
@@ -34,9 +33,10 @@ if(laHora >= "0" && laHora <= "24"){
         case "6":
             alert("Es de noche.");
             break;
+            default:
+            alert("La hora no existe");
+            break;
         
     }
-} else{
-    alert("La hora no existe");
-}
+
 }//FIN DE LA FUNCIÓN
