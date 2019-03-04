@@ -1,34 +1,27 @@
 function Mostrar()
 {
-var positivo=0;
-var negativo=1;
-var respuesta='s';
-var multiplicacion;
-var flag=0;
+var numero, positivo = 0, negativo = 1, flag = 0, respuesta;
 
 do{
-	numero = parseInt(prompt("Ingrese un numero"));
-	
-	if(numero >= 0){
-	
-	positivo = positivo + numero;
-
-	}else {(nuemero <=0)
-	
-	negativo = negativo * numero;
-	
-	flag==1 
-
-	respuesta = prompt("Quiere continuar?").toLowerCase;
-		}
-}while(respuesta == "s")
-
-
-document.getElementById("suma").value=positivo;
-if(flag == 0){
-	negativo == 0;
-}
+	numero = parseInt(prompt("Ingrese un número"));
+	while(isNaN(numero)){
+		numero = parseInt(prompt("Número invalido. Ingrese un número"));
 	}
-document.getElementById("producto").value=negativo;
+	if(numero >= 0){
+		positivo += numero;
+	}
+	else{
+		negativo *= numero;
+		flag = 1; 
+	}
+	respuesta = prompt("Quiere continuar?").toLowerCase();
+	}
+	while(respuesta == "s");
+	document.getElementById("suma").value = positivo;
+	if(flag == 0){
+	negativo = 0;
+}
+	
+document.getElementById("producto").value = negativo;
 
 }//FIN DE LA FUNCIÓN

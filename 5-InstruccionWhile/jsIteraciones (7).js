@@ -1,22 +1,17 @@
 function Mostrar()
 {
-
 var contador=0;
 var acumulador=0;
 var numero;
-var respuesta = "s";
-var promedio;
+var respuesta;
 do{
 	numero = parseInt(prompt("Ingrese un numero"));
-
-	acumulador = acumulador + numero;
-	/* acumulador +=1; (Es lo mismo que la linea anterior)*/
-	contador = contador +1;
-	/*contador +=1; /*(Es lo mismo que la linea anterior)*/
-	/*contador ++;(Es lo mismo que la linea anterior)*/
-
-	respuesta = prompt("Quiere continuar?").toLowerCase();
-
+	while(isNaN(numero)){
+		numero = parseInt(prompt("Número invalido. Ingrese un número"));
+	}
+	contador++;
+	acumulador += numero;
+	respuesta = prompt("Desea seguir ingresando números?").toLowerCase();
 }
 while (respuesta == "s");
 promedio = acumulador / contador;
